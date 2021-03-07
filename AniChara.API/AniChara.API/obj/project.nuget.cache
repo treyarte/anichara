@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v9K7djTW6d9LCIeQ+SQ3jd6LENzX0KtQ6nRYcDSP8sp3kxybQOS34+ItW55lIvFQ15XaLkSoYiYbLo1ZcN/1KQ==",
+  "dgSpecHash": "rbxJU0xpX9ZaRI9wLGQYBkQSeG+nnN/Q+g4XWCCyoOHAhZkBnOH87cNl++bKcvKmmutoKUiXJvmKuR2D6GAf+A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\trey\\source\\repos\\AniChara.API\\AniChara.API\\AniChara.API.csproj",
+  "projectFilePath": "C:\\Users\\trey\\source\\repos\\AniChara\\AniChara.API\\AniChara.API\\AniChara.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\trey\\.nuget\\packages\\dnsclient\\1.3.1\\dnsclient.1.3.1.nupkg.sha512",
     "C:\\Users\\trey\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",

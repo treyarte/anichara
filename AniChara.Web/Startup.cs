@@ -10,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Radzen;
 
 namespace AniChara.Web
 {
@@ -34,6 +35,10 @@ namespace AniChara.Web
             });
             services.AddSingleton<WeatherForecastService>();
             services.AddRazorPages();
+            services.AddScoped<DialogService>();
+            services.AddScoped<NotificationService>();
+            services.AddScoped<TooltipService>();
+            services.AddScoped<ContextMenuService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

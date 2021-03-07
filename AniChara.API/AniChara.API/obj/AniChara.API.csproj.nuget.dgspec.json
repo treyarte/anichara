@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\trey\\source\\repos\\AniChara.API\\AniChara.API\\AniChara.API.csproj": {}
+    "C:\\Users\\trey\\source\\repos\\AniChara\\AniChara.API\\AniChara.API\\AniChara.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\trey\\source\\repos\\AniChara.API\\AniChara.API\\AniChara.API.csproj": {
+    "C:\\Users\\trey\\source\\repos\\AniChara\\AniChara.API\\AniChara.API\\AniChara.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\trey\\source\\repos\\AniChara.API\\AniChara.API\\AniChara.API.csproj",
+        "projectUniqueName": "C:\\Users\\trey\\source\\repos\\AniChara\\AniChara.API\\AniChara.API\\AniChara.API.csproj",
         "projectName": "AniChara.API",
-        "projectPath": "C:\\Users\\trey\\source\\repos\\AniChara.API\\AniChara.API\\AniChara.API.csproj",
+        "projectPath": "C:\\Users\\trey\\source\\repos\\AniChara\\AniChara.API\\AniChara.API\\AniChara.API.csproj",
         "packagesPath": "C:\\Users\\trey\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\trey\\source\\repos\\AniChara.API\\AniChara.API\\obj\\",
+        "outputPath": "C:\\Users\\trey\\source\\repos\\AniChara\\AniChara.API\\AniChara.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
