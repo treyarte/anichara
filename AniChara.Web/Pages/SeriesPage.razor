@@ -1,0 +1,44 @@
+﻿@page "/series"
+
+@inject Data.SeriesService seriesService;
+@using AniChara.API.Models;
+<h3>Series</h3>
+
+@if (series == null)
+{
+    <div><span class="spinner-border"></span></div>
+}
+else
+{
+<div class="card-deck">
+    @foreach (var s in series)
+    {
+        <div class="card" style="max-width: 18rem;">
+            <img class="card-img-top fixe" src="@s.Image" alt="Series Image">
+            <div class="card-body">
+                <h5 class="card-title">@s.Title</h5>
+                <p>@s.Description</p>
+                <ul>
+                    
+                    @foreach ( var tag in s.Tags)
+                    {
+                        <li>@tag</li>
+                    }
+                </ul>
+            </div>
+        </div>
+    }
+</div>
+}
+
+@code {
+    public List<Series> series;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync(); 
+        series = await seriesService.GetSeriesAsync();
+        Console.WriteLine("img: " + series[0].Image);
+       
+    }
+}
